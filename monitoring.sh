@@ -1,7 +1,7 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    Dockerfile                                         :+:      :+:    :+:    #
+#    monitoring.sh                                      :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: shovsepy <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
@@ -14,7 +14,7 @@
 
 #Make sure to install sysstat via `sudo apt install sysstat`
 #Make sure to install bc via `sudo apt install bc`
-#Make sure to writ the path to the sudo log files you created in last line instead of `/var/log/sudo/sudo_logs`
+#Make sure to write the path to the sudo log files you created in last line instead of `/var/log/sudo/sudo_logs`
 
 THREADS=$(lscpu | egrep 'Thread|Core|Socket|^CPU' | awk '{if(NR == 3) print $NF}')
 CORES=$(lscpu | egrep 'Thread|Core|Socket|^CPU' | awk '{if(NR == 4) print $NF}')
