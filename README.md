@@ -47,7 +47,7 @@ You can find the _bonus_ installation walkthrough _(no audio)_ [here](https://yo
 
 ### Step 1: Installing Sudo
 
-Switch to _root_ and its environment by rthe help of following command.
+Switch to _root_ and its environment by the help of following command.
 
 ```
 $ su -
