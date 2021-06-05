@@ -140,13 +140,13 @@ Install _openssh-server_ via `sudo apt install openssh-server`.
 $ sudo apt install openssh-server
 ```
 
-ou can verify whether _openssh-server_ was successfully installed via `dpkg -l | grep ssh`.
+You can verify whether _openssh-server_ was successfully installed via `dpkg -l | grep ssh`.
 
 ```
 $ dpkg -l | grep ssh
 ```
 
-In order to change the shh port and restrict root access wyou need to change the sshd_config file.
+In order to change the shh port and restrict root access you need to change the sshd_config file.
 Open the SSH configuration file via `sudo vi /etc/ssh/sshd_config`.
 
 ```
@@ -191,7 +191,7 @@ $ sudo service ssh status
 
 ### Step 2: Installing & Configuring UFW
 
-UFW stands for Uncomplicated Firewall, whuch is a program for managing a netfilter firewall and designed to be easy to use. You need to install and enable it.
+UFW stands for Uncomplicated Firewall, which is a program for managing a netfilter firewall and designed to be easy to use. You need to install and enable it.
 Install _ufw_ via `sudo apt install ufw`.
 
 ```
@@ -210,7 +210,7 @@ Enable Firewall via `sudo ufw enable`.
 $ sudo ufw enable
 ```
 
-In order to be able to connect to the server via ssh our firewall need to allow the port we set up for ssh.
+In order to be able to connect to the server via ssh the firewall need to allow the port we set up for ssh.
 Allow incoming connections using Port 4242 via `sudo ufw allow 4242`.
 
 ```
