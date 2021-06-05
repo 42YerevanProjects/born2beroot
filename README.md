@@ -226,7 +226,7 @@ $ sudo ufw status
 ### Step 3: Connecting to Server via SSH
 
 Now you can use another device (for example your host machine) to connect to our Debian server.
-In order to ssh to your server you need you machines username and ip address (tHe command `hostname -I` will give you the ip address).You can SSH into your virtual machine using Port 4242 by openning a terminal and typing the following command:
+In order to ssh to your server you need you machine's username and ip address (the command `hostname -I` will give you the ip address).You can SSH into your virtual machine using Port 4242 by openning a terminal and typing the following command:
 
 ```
 $ ssh <username>@<ip-address> -p 4242
