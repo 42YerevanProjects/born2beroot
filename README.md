@@ -355,8 +355,6 @@ $ sudo adduser <username> user42
 $ getent group user42
 ```
 
-//////////////////////////////////////////////////////////////////////////
-
 ## _cron_
 
 ### Setting Up a _cron_ Job
