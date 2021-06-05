@@ -299,7 +299,8 @@ You need to
 Finally, it should look like the below:
 
 ```
-password        requisite                       pam_pwquality.so retry=3 minlen=10 ucredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
+password        requisite                       pam_pwquality.so retry=3 
+minlen=10 ucredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
 ```
 
 ### Step 2: Creating a New User
