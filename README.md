@@ -378,7 +378,7 @@ To schedule a shell script to run every 10 minutes, replace below line
       with:
 
       ```
-      23 */10 * * * * sh /path/to/script
+      23 */10 * * * * sh /path/to/script | wall
       ```
 
 Check _root_'s scheduled _cron_ jobs via `sudo crontab -u root -l`.
@@ -387,7 +387,7 @@ Check _root_'s scheduled _cron_ jobs via `sudo crontab -u root -l`.
 $ sudo crontab -u root -l
 ```
 
-After the this do not forget to add the script to `.bashrc` to make it run at reboot.
+After this do not forget to add the reboot line to the same file to make it run at `reboot`.
 
 ## Bonus
 
