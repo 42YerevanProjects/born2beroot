@@ -33,7 +33,7 @@ USED_DISK_PERCENT=$(df -h --total | awk 'END{print$(NF - 1)}')
 printf "#Architecture: `uname -a` \n"
 printf "#CPU physical: `nproc` \n"
 printf "#vCPU: `expr $THREADS \* $CORES \* $SOCKETS` \n"
-printf "#Memory Usage: `expr $USED_MEMORY / 1024`/`expr $TOTAL_MEMORY / 1024`MB ($UED_MEMORY_PERCENT%%) \n"
+printf "#Memory Usage: `expr $USED_MEMORY / 1024`/`expr $TOTAL_MEMORY / 1024`MB ($USED_MEMORY_PERCENT%%) \n"
 printf "#Disk Usage: $USED_DISK_SIZE/$TOTAL_DISK_SIZE ($USED_DISK_PERCENT%)\n"
 printf "#CPU Load: `echo 100 - $CPU_IDLE | bc`%% \n"
 printf "#Last Boot: `who -b | awk '{print $(NF - 1), $NF}'` \n"
