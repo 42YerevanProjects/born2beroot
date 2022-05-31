@@ -33,3 +33,31 @@ information:
 
 You can find the script monitoring.sh in this repository.
 
+## Resources
+
+Books
+
+- [Basic Introduction](https://github.com/42YerevanProjects/42_Born2beroot/tree/master/resources)
+- [Linux CLI Basics](https://github.com/42YerevanProjects/42_Born2beroot/tree/master/resources)
+- [Bash Scripting](https://github.com/42YerevanProjects/42_Born2beroot/tree/master/resources)
+
+Vidoes
+
+- [Linux Basics](https://youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL)
+- [SSH Crash Course](https://youtu.be/hQWRp-FdTpc)
+- [UFW Guide](https://youtu.be/-CzvPjZ9hp8)
+- [What is tty](https://youtu.be/SYwbEcNrcjI)
+
+Links
+
+- [Linux Essentials](https://www.netacad.com/courses/os-it/ndg-linux-essentials)
+- [How to create VMs](https://www.howtogeek.com/196060/beginner-geek-how-to-create-and-use-virtual-machines/)
+- [Open or close server ports](https://docs.bitnami.com/virtual-machine/faq/administration/use-firewall/)
+- [Sudo Usage](https://phoenixnap.com/kb/linux-sudo-command)
+- [Sudoers File](https://linuxfoundation.org/blog/classic-sysadmin-configuring-the-linux-sudoers-file/)
+- [What is TTY](https://www.howtogeek.com/428174/what-is-a-tty-on-linux-and-how-to-use-the-tty-command/)
+
+## Additional information
+
+The information provided by this repository is not the only thing you should learn. Do not limit yourself with 
+this information only. Please do not follow the instructions without understanding them.
