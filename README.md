@@ -4,6 +4,8 @@ This project aims to introduce you to the wonderful world of virtualization.
 You will create your first machine in VirtualBox under specific instructions.
 Then, at the end of this project, you will be able to set up your own operating system while implementing strict rules.
 
+> ⚠️ **Warning**: Don't copy/paste anything you don't understand: it's bad for you, and for the school.
+
 ## Born2BeRoot Guide
 
 This project contains vast amount of information and requires a lot of reading. I created a 
@@ -34,6 +36,10 @@ information:
 You can find the script monitoring.sh in this repository.
 
 ## Resources
+
+You can find some links and books below that might be useful during the project. You can find all the books in 
+resources folder. Note that you do not have to read the books completly but you will find a lot of useful 
+information there.
 
 Books
 
